@@ -40,7 +40,7 @@ public class FileExample {
             System.out.println("El documento " + f.getName() + " existe");
         }else{
             try{    
-                System.out.println("El fichero no existe, pero se crea");
+                System.out.println("El fichero no existe");
                 fort = new Formatter(f);    
             }catch(Exception ex){
                 System.out.println("No se ha podido crear el fichero");
