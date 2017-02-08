@@ -41,6 +41,7 @@ public class FileExample {
         }else{
             try{    
                 System.out.println("El fichero no existe, pero se crea");
+                System.out.println("Trabajando en la nueva rama");
                 fort = new Formatter(f);    
             }catch(Exception ex){
                 System.out.println("No se ha podido crear el fichero");
